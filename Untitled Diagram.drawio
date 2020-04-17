@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2020-04-17T11:42:39.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" version="12.9.11" etag="Bgd4pSY_-Y2akspytdPl" type="github"><diagram id="MWg0xjx9Skts4vI27wR5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-17T12:41:26.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="FQ38443RSluDVofdhcDA" version="12.9.11" type="github">
+  <diagram id="MWg0xjx9Skts4vI27wR5" name="Page-1">
+    <mxGraphModel dx="1695" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J982aNR_XmHpmfA9hRam-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="494" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-2" value="Gestion des Achats" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-3" value="Authenfication" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-4" value="Gestion Administration" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="510" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0;exitDx=160;exitDy=35.5;exitPerimeter=0;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-4" target="J982aNR_XmHpmfA9hRam-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-2" target="J982aNR_XmHpmfA9hRam-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=150;entryDy=52;entryPerimeter=0;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-7" target="J982aNR_XmHpmfA9hRam-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-7" value="&amp;lt;&amp;lt;système&amp;gt;&amp;gt;&lt;br&gt;sytème bancaire" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="374" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-13" target="J982aNR_XmHpmfA9hRam-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-13" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-14" target="J982aNR_XmHpmfA9hRam-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-14" value="Commercial" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-15" target="J982aNR_XmHpmfA9hRam-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-15" value="livraison" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-19" target="J982aNR_XmHpmfA9hRam-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-19" value="Administration" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="502" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J982aNR_XmHpmfA9hRam-22" target="J982aNR_XmHpmfA9hRam-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J982aNR_XmHpmfA9hRam-22" value="Direction" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="634" width="30" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
